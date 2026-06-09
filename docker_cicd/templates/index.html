@@ -5,6 +5,12 @@
 </head>
 <body>
     <h2>Olivetti Face Classifier</h2>
-    <p>Flask application is running successfully.</p>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Predict</button>
+    </form>
+    {% if prediction is not none %}
+        <h3>Predicted Class: {{ prediction }}</h3>
+    {% endif %}
 </body>
 </html>
