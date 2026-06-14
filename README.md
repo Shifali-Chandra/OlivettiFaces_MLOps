@@ -23,7 +23,7 @@ This project implements an end-to-end MLOps pipeline using the Olivetti Faces da
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Shifali-Chandra/OlivettiFaces_MLOps.git
 cd OlivettiFaces_MLOps
 ```
 
